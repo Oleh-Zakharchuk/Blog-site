@@ -1,0 +1,31 @@
+.search {
+  width: 100%;
+  max-width: 21rem;
+  background-color: $secondary-clr;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search__input {
+  height: 60%;
+  padding-left: 1.5rem;
+  border: none;
+  border-radius: 2.5rem;
+
+  font-family: inherit;
+  font-size: 1.5rem;
+
+
+  color: $white;
+  background-color: $primary-clr;
+
+  position: relative;
+
+  &::placeholder {
+    color: rgba($white, 0.4);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

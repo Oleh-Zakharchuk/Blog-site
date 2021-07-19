@@ -1,0 +1,33 @@
+@import "vendor/reset";
+@import "vars";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #181818;
+  font-family: $bs-font-sans-serif;
+  font-size: 1.4rem;
+  color: $white;
+  line-height: 1.5;
+}
+
+// Blocks
+
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/nav.scss";
+@import "blocks/search.scss";
+@import "blocks/sidebar";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/profile";
+@import "blocks/social";
+@import "blocks/btn.scss";
